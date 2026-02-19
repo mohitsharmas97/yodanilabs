@@ -93,7 +93,7 @@ const Footer = () => {
                             © {currentYear} Yodani Labs. All rights reserved.
                         </p>
                         <p className="text-gray-500 text-sm">
-                            Built with React & Tailwind CSS
+
                         </p>
                     </div>
                 </div>

@@ -136,9 +136,7 @@ const Portfolio = () => {
 
                 {/* Add more projects button */}
                 <div className="text-center mt-12">
-                    <p className="text-gray-400 text-sm">
-                        💡 To add more projects, edit the <code className="text-purple-400 bg-slate-800 px-2 py-1 rounded">projects</code> array in <code className="text-purple-400 bg-slate-800 px-2 py-1 rounded">src/components/Portfolio.jsx</code>
-                    </p>
+
                 </div>
             </div>
         </section>
