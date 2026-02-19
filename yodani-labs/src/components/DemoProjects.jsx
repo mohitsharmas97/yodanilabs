@@ -30,12 +30,12 @@ const DemoProjects = () => {
             thumbnail: '/railway_project.mp4',
             technologies: ['Python', 'IRCTC API', 'Flask', 'Streamlit', 'Machine Learning', 'Data Analytics'],
             features: [
-                'Live train status tracking using IRCTC API',
-                'Delay prediction using machine learning models',
-                'Route and schedule analysis',
-                'Real-time alerts and notifications',
-                'Interactive dashboard with analytics visualizations'
-            ]
+            'Live train status tracking using IRCTC API',
+            'Delay prediction using machine learning models',
+            'Route and schedule analysis',
+            'Real-time alerts and notifications',
+            'Interactive dashboard with analytics visualizations'
+    ]
         },
         {
             id: 3,

@@ -5,30 +5,46 @@ const Portfolio = () => {
     // Each project should have: title, description, techStack, githubLink, liveLink, and optionally an image
     const projects = [
         {
-            title: 'Project Name 1',
-            description: 'Brief description of the project and its key features. What problems does it solve?',
-            techStack: ['React', 'Node.js', 'TensorFlow', 'MongoDB'],
-            githubLink: 'https://github.com/yourusername/project1',
-            liveLink: 'https://project1.com',
-            image: null, // You can add image path here later
+            title: 'MIND-A-EYE',
+            description:
+                "An end-to-end AI-powered medical diagnostic platform that detects Diabetic Retinopathy (5 stages) and Brain Tumors (4 types) using EfficientNet-based deep learning models. Features secure authentication, AI-powered chatbot (Gemini API), automated PDF report generation, and email delivery system.",
+            highlights: [
+                "EfficientNet-based image classification (PyTorch)",
+                "Dual disease detection system (Retinopathy + Brain Tumor)",
+                "Gemini AI medical chatbot integration",
+                "Secure authentication (Flask + SQLite + Sessions)",
+                "AI-generated downloadable PDF reports",
+                "Automated email delivery using Flask-Mail",
+                "Lazy model loading & caching for optimization"
+            ],
+            tags: ['Python', 'Flask', 'Pytorch', 'Efficient Net', 'Gemini API', 'SQLite', 'FPDF', 'Flask-Mail'],
+            links: {
+                github: 'https://github.com/mohitsharmas97/MIND-A-EYE',
+                live: "https://youtu.be/Ri3jTL3RwUg?si=tYajwM-OH34K1hyd"
+            },
+            image: '/mindaeye.png',
         },
         {
-            title: 'MINDAEYE',
-            description: 'MINDAEYE is an AI-based diagnostic platform that detects diabetic retinopathy and brain tumors from medical images. It combines deep learning, chatbot support, and report generation to assist in early disease detection and medical research.',
-            techStack: ['Python', 'FastAPI', 'PostgreSQL', 'Docker'],
-            githubLink: 'https://github.com/mohitsharmas97/MIND-A-EYE',
-            liveLink: 'https://project2.com',
-            image: null,
+            title: 'Crowd Stampede Detection',
+            description: 'Real-time crowd monitoring and stampede prevention system using YOLOv8 and LSTM networks. Integrates with IoT sensors to provide early warnings during high-density events.',
+            tags: ['YOLOv8', 'LSTM', 'IoT', 'Real-time Analytics'],
+            links: {
+                github: 'https://github.com/mohitsharmas97/Crowd_Stampede_detection_yolo_and_lstm',
+                live: "https://youtu.be/-A2xs2iOZPQ"
+            },
+            image: '/crowd.png',
         },
         {
-            title: 'Project Name 3',
-            description: 'Brief description of the project and its key features. What problems does it solve?',
-            techStack: ['Next.js', 'TypeScript', 'Prisma', 'AWS'],
-            githubLink: 'https://github.com/yourusername/project3',
-            liveLink: 'https://project3.com',
-            image: null,
+            title: 'Bone Cancer Detection',
+            description: 'An AI-powered medical imaging platform for detecting bone cancer from X-ray images using deep learning. Built with Flask application factory architecture, modular blueprints, and secure user authentication',
+            tags: ['Python', 'Flask', 'Pytorch', 'Efficient Net', 'Gemini API', 'SQLite', 'FPDF', 'Flask-Mail'],
+            links: {
+                github: 'https://github.com/mohitsharmas97/Bone_cancer_detection/tree/main',
+                live: "https://youtu.be/22KPdC7I0zk"
+
+            },
+            image: '/bonecancer.png',
         },
-        // Add more projects here following the same structure
     ]
 
     return (
@@ -76,7 +92,7 @@ const Portfolio = () => {
 
                                 {/* Tech Stack */}
                                 <div className="flex flex-wrap gap-2 mb-6">
-                                    {project.techStack.map((tech, techIndex) => (
+                                    {project.tags.map((tech, techIndex) => (
                                         <span
                                             key={techIndex}
                                             className="px-3 py-1 text-xs font-semibold text-purple-300 bg-purple-900/30 rounded-full border border-purple-500/30"
@@ -89,7 +105,7 @@ const Portfolio = () => {
                                 {/* Links */}
                                 <div className="flex gap-4">
                                     <a
-                                        href={project.githubLink}
+                                        href={project.links.github}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-slate-700 hover:bg-slate-600 rounded-lg text-white font-semibold transition-all duration-300 hover:scale-105"
@@ -101,15 +117,16 @@ const Portfolio = () => {
                                     </a>
 
                                     <a
-                                        href={project.liveLink}
+                                        href={project.links.live}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 rounded-lg text-white font-semibold transition-all duration-300 hover:scale-105"
                                     >
-                                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                                        <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                            <path d="M19.615 3.184C18.403 2.77 12 2.77 12 2.77s-6.403 0-7.615.414A2.995 2.995 0 002.284 5.4 31.17 31.17 0 002 12a31.17 31.17 0 00.284 6.6 2.995 2.995 0 002.101 2.216C5.597 21.23 12 21.23 12 21.23s6.403 0 7.615-.414a2.995 2.995 0 002.101-2.216A31.17 31.17 0 0022 12a31.17 31.17 0 00-.284-6.6 2.995 2.995 0 00-2.101-2.216zM10 15.5v-7l6 3.5-6 3.5z" />
                                         </svg>
-                                        Live
+                                        Watch Demo
+
                                     </a>
                                 </div>
                             </div>

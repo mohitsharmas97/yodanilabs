@@ -25,7 +25,7 @@ const Footer = () => {
                         </p>
                         <div className="flex gap-4">
                             <a
-                                href="YOUR_LINKEDIN_URL_HERE"
+                                href="https://www.linkedin.com/in/mohit-sharma9761/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="p-2 bg-slate-800 rounded-lg hover:bg-purple-600 transition-all duration-300 hover:scale-110"
@@ -36,7 +36,7 @@ const Footer = () => {
                             </a>
 
                             <a
-                                href="YOUR_GITHUB_URL_HERE"
+                                href="https://github.com/mohitsharmas97"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="p-2 bg-slate-800 rounded-lg hover:bg-purple-600 transition-all duration-300 hover:scale-110"
@@ -73,7 +73,7 @@ const Footer = () => {
                                 <svg className="w-5 h-5 text-purple-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                 </svg>
-                                <span>contact@yodanilabs.com</span>
+                                <span>yodanilabs@gmail.com</span>
                             </li>
                             <li className="flex items-start gap-2">
                                 <svg className="w-5 h-5 text-purple-400 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

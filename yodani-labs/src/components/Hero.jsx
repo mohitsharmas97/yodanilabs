@@ -49,7 +49,7 @@ const Hero = () => {
                         href="#contact"
                         className="group px-10 py-4 bg-transparent border-2 border-purple-400 rounded-full text-white font-semibold text-lg transition-all duration-300 hover:bg-purple-400 hover:scale-110 hover:shadow-2xl hover:shadow-purple-400/50"
                     >
-                        Contact Us
+                        Get Free Quote
                     </a>
                 </div>
 
