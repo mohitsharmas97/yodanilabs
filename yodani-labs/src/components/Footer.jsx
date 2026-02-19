@@ -25,7 +25,7 @@ const Footer = () => {
                         </p>
                         <div className="flex gap-4">
                             <a
-                                href="https://www.linkedin.com/in/mohit-sharma9761/"
+                                href="https://www.linkedin.com/in/pushkar-sharma-1600a6246/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="p-2 bg-slate-800 rounded-lg hover:bg-purple-600 transition-all duration-300 hover:scale-110"
@@ -36,7 +36,7 @@ const Footer = () => {
                             </a>
 
                             <a
-                                href="https://github.com/mohitsharmas97"
+                                href="https://github.com/pushkar-hue"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="p-2 bg-slate-800 rounded-lg hover:bg-purple-600 transition-all duration-300 hover:scale-110"

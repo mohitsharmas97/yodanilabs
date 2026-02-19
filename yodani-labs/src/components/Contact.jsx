@@ -160,7 +160,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h4 className="text-white font-semibold mb-1">Call / WhatsApp</h4>
-                                    <p className="text-gray-400">+91 98765 43210</p>
+                                    <p className="text-gray-400">+91 9548465306</p>
                                     <p className="text-gray-500 text-sm mt-1">Mon-Fri, 9AM - 6PM IST</p>
                                 </div>
                             </div>
@@ -184,7 +184,7 @@ const Contact = () => {
                                 <h4 className="text-lg font-semibold text-white mb-6">Connect with us</h4>
                                 <div className="flex gap-4">
                                     <a
-                                        href="https://www.linkedin.com/in/mohit-sharma9761/"
+                                        href="https://www.linkedin.com/in/pushkar-sharma-1600a6246/"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="group p-4 bg-slate-700 rounded-lg hover:bg-blue-600 transition-all duration-300 hover:scale-110"
@@ -195,7 +195,7 @@ const Contact = () => {
                                     </a>
 
                                     <a
-                                        href="https://github.com/mohitsharmas97"
+                                        href="https://github.com/pushkar-hue"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="group p-4 bg-slate-700 rounded-lg hover:bg-gray-800 transition-all duration-300 hover:scale-110"
