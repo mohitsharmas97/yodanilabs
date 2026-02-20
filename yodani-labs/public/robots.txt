@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yodanilabs-1c23.vercel.app/sitemap.xml
